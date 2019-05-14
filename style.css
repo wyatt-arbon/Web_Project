@@ -1,6 +1,9 @@
-<!--- Footer nav css section--->
+/* Footer nav css section */
 
-
+.content{
+  float: center;
+  min-width: 50%;
+}
 
 
 .navbar {
