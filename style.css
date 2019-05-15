@@ -1,36 +1,48 @@
-/* Footer nav css section */
-
 .content{
+  width: 60%;
+  background-color: rgb(247 247 247);
+  border-radius: 4px;
+  box-shadow:0 4px 8px 1px silver;
+  transition: 0.2s;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+}
+
+.contentheader{
+  padding: 1% 4%;
+  background-image: linear-gradient(to right, #052347 0%, #80c0df 100%);
+  border-radius: 4px 4px 0 0;
+  color: white;
+}
+
+.body{
+  padding: 2% 4% 2% 4%;
+}
+
+/* .body:iframe{
   float: center;
-  min-width: 50%;
-}
+} */
 
-
-.navbar {
-  float: right;
-  overflow: show;
+/* Footer nav css section */
+.footer {
   background-color: #333;
-  position: static;
-  bottom: 0;
-  width: 55%;
+  border-radius: 0 0 4px 4px;
 }
 
-.navbar a {
-  float: left;
-  display: block;
+.footer a {
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 
-.navbar a:hover {
+.footer a:hover {
   background: #f1f1f1;
   color: black;
 }
 
-.navbar a.active {
+.footer a.active {
   background-color: #4CAF50;
   color: white;
 }
