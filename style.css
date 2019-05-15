@@ -1,5 +1,5 @@
 .content{
-  width: 60%;
+  width: 62%;
   background-color: rgb(247 247 247);
   border-radius: 4px;
   box-shadow:0 4px 8px 1px silver;
@@ -23,6 +23,69 @@
 /* .body:iframe{
   float: center;
 } */
+
+
+/* Top Navigation And Logo Design {
+    
+} */
+
+
+
+.main-nav
+{
+    
+  background-color: #333;
+  border-radius: 0 0 4px 4px;
+}
+.main-nav li
+
+{
+    
+    display: inline-block;
+    box-shadow:0 4px 8px 1px silver;
+}
+
+
+.main-nav li a
+{
+   
+ display: block;
+    padding: 0 8px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    height: 2em;
+    font-size: 0.6em;
+    border-bottom: 1px solid #383838;
+}
+
+
+.main-nav li.active a
+{
+    background-color: #4CAF50;
+  color: white;
+    
+}
+
+.main-nav li a:hover
+
+{ 
+    text-decoration : underline;
+}
+
+.logo  img
+
+{
+    width:100px;
+    height:auto;
+    float: left;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
 
 /* Footer nav css section */
 .footer {
