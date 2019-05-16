@@ -29,12 +29,12 @@ h4{
 }
 
 /* YouTube embed */
-.video {
+.video{
 	position: relative;
-  padding-bottom: 40%;
+ 	padding-bottom: 40%;
 	height: 0;
-  width: 70%;
-  margin: 5% auto;
+	width: 70%;
+ 	margin: auto;
 }
 
 .body iframe {
