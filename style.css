@@ -278,6 +278,7 @@ if the screen exceeds the size (mobile size) then the screen will change
   .side-nav-links{
     position: relative;
     transform: translateX(0%);
+    width: 15%;
   }
   .hamburger{
     display: none;
