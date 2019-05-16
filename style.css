@@ -212,6 +212,9 @@ nav{
   margin-left: 2%;
   float: left;
 }
+.side-nav-links{
+  height: 70vh;
+}
 .side-nav-links li{
   list-style: none;
 }
