@@ -211,7 +211,16 @@ nav{
   background-color: #C6181D;
   float: left;
 }
-
+.side-nav-links li{
+  list-style: none;
+}
+.side-nav-links a{
+  color: rgb(247 247 247);
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 14px;
+}
 /* Footer nav css section */
 .footer {
   background-color: #333;
