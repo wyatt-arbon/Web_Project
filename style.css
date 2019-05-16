@@ -1,0 +1,287 @@
+body{
+  background-color: rgb(247 247 247);
+  margin: 0;
+}
+
+h4{
+  font-size: 1.1em;
+}
+
+.content{
+  width: 100%;
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contentheader{
+  padding: 1% 5%;
+  background-image: linear-gradient(to right, #052347 0%, #80c0df 100%);
+  color: white;
+}
+
+/* YouTube embed */
+.video {
+	position: relative;
+  padding-bottom: 60%;
+	height: 0;
+  width: 100%;
+  margin: 5% auto;
+}
+
+.body iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  border: 0;
+}
+/* YouTube end */
+
+
+
+.body{
+  padding: 2% 5%;
+}
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: blue;
+}
+
+/* PLACEHOLDER CARD STUFF
+general card styling */
+.card{
+  width: 30%;
+  float: left;
+  background-color: rgb(247 247 247);
+  border-radius: 5px;
+  box-shadow:0 4px 8px 1px silver;
+  transition: 0.2s;
+  color: black;
+  text-decoration: none;
+  margin: auto;
+}
+.card:hover{
+    box-shadow:0 8px 20px 0 silver;
+}
+/* general card styling end */
+
+/* all card link styling */
+.cardlinks:visited{
+  color: inherit;
+}
+.cardlinks:hover{
+  text-decoration: underline;
+}
+.cardlinks:active{
+  color: navy;
+}
+/* all card link styling end */
+
+/* card header styling */
+h3{
+  font-family: Arial, Cambria, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+.cardheader{
+  background-color: lightblue;
+  padding: 2% 3%;
+  border-radius: 5px 5px 0 0;
+}
+/* card header end */
+
+/* card body styling */
+.cardbody{
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
+  padding: 2% 3%;
+}
+/* card body end
+PLACEHOLDER END*/
+
+/* Top Navigation And Logo Design {
+
+} */
+
+
+
+.main-nav
+{
+
+  background-color: #333;
+  border-radius: 0 0 4px 4px;
+  min-height: 54.63px
+}
+.main-nav li
+
+{
+
+    display: inline-block;
+    box-shadow:0 4px 8px 1px silver;
+}
+
+
+.main-nav li a
+{
+
+ display: block;
+    padding: 0 8px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    height: 2em;
+    font-size: 0.6em;
+    border-bottom: 1px solid #383838;
+}
+
+
+.main-nav li.active a
+{
+    background-color: #4CAF50;
+  color: white;
+
+}
+
+.main-nav li a:hover
+
+{
+    text-decoration : underline;
+}
+
+.logo  img
+
+{
+    width:100px;
+    height:auto;
+    float: left;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+/*side nav*/
+nav{
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #8b0000;
+  margin-left: 2%;
+  float: left;
+}
+.side-nav-links{
+  height: 87vh;
+}
+
+.side-nav-links li{
+  list-style: none;
+}
+.side-nav-links a{
+  color: rgb(247 247 247);
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 14px;
+
+}
+.hamburger div{
+  width: 25px;
+  height: 3px;
+  background-color: rgb(247 247 247);
+  margin: 5px;
+  transition: all 0.5s ease;
+}
+.side-nav-links{
+    position: absolute;
+    left: 0px;
+    height: 100vh;
+    top: 54.63px;
+    background-color: #8b0000;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in;
+}
+.hamburger{
+  position: fixed;
+  display: block;
+  float: inherit;
+  background-color: #5D4954;
+  width: 35px;
+  height: 32px;
+}
+/* Footer nav css section */
+.footer {
+  background-color: #333;
+  border-radius: 0 0 4px 4px;
+}
+
+.footer a {
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.footer a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.footer a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+/* desktop browser query
+if the screen exceeds the size (mobile size) then the screen will change
+*/
+@media screen and (min-width:767px){
+  .content{
+    width: 60%;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow:0 4px 8px 1px silver;
+    transition: 0.2s;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+  }
+  .contentheader{
+    padding: 1% 5%;
+    background-image: linear-gradient(to right, #052347 0%, #80c0df 100%);
+    border-radius: 4px 4px 0 0;
+    color: white;
+  }
+  .video {
+  	position: relative;
+    padding-bottom: 40%;
+  	height: 0;
+    width: 70%;
+    margin: 5% auto;
+  }
+
+  .body iframe {
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+    border: 0;
+  }
+  .side-nav-links{
+    position: relative;
+    transform: translateX(0%);
+    width: 15%;
+  }
+  .hamburger{
+    display: none;
+  }
+}
+/* desktop query end */
