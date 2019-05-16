@@ -146,7 +146,7 @@ PLACEHOLDER END*/
 
 .main-nav li.active a
 {
-    background-color: #4CAF50;
+    background-color:#0D5973;
     color: white;
 
 }   
@@ -154,8 +154,8 @@ PLACEHOLDER END*/
 
 .main-nav li.btn a
 {
-    float: none;
-    background-color: #4CAF50;
+   
+    background-color:#0D5973;
     color: white;
     
 
@@ -240,6 +240,22 @@ nav{
   margin-bottom: 0;
 }
 
+.footer li {
+    display: inline-block;
+}
+.footer li a {
+    
+     display: block;
+    padding: 0 2px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    letter-spacing: 0.1em;
+    line-height: 3em;
+    height: 3em;
+    font-size: 0.67em;
+    border-bottom: 1px solid #383838;
+}
 .footer a {
   color: #f2f2f2;
   text-align: center;
@@ -253,7 +269,7 @@ nav{
 }
 
 .footer a.active {
-  background-color: #4CAF50;
+  background-color: #0D5973;
   color: white;
 }
 
