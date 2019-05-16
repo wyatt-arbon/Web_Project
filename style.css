@@ -1,6 +1,14 @@
+body{
+  background-color: rgb(247 247 247);
+}
+
+h4{
+  font-size: 1.1em;
+}
+
 .content{
   width: 62%;
-  background-color: rgb(247 247 247);
+  background-color: white;
   border-radius: 4px;
   box-shadow:0 4px 8px 1px silver;
   transition: 0.2s;
@@ -20,27 +28,85 @@
   padding: 2% 4% 2% 4%;
 }
 
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: blue;
+}
+
+/* PLACEHOLDER CARD STUFF
+general card styling */
+.card{
+  width: 30%;
+  float: left;
+  background-color: rgb(247 247 247);
+  border-radius: 5px;
+  box-shadow:0 4px 8px 1px silver;
+  transition: 0.2s;
+  color: black;
+  text-decoration: none;
+  margin: auto;
+}
+.card:hover{
+    box-shadow:0 8px 20px 0 silver;
+}
+/* general card styling end */
+
+/* all card link styling */
+.cardlinks:visited{
+  color: inherit;
+}
+.cardlinks:hover{
+  text-decoration: underline;
+}
+.cardlinks:active{
+  color: navy;
+}
+/* all card link styling end */
+
+/* card header styling */
+h3{
+  font-family: Arial, Cambria, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+.cardheader{
+  background-color: lightblue;
+  padding: 2% 3%;
+  border-radius: 5px 5px 0 0;
+}
+/* card header end */
+
+/* card body styling */
+.cardbody{
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
+  padding: 2% 3%;
+}
+/* card body end
+PLACEHOLDER END*/
+
 /* .body:iframe{
   float: center;
 } */
 
 
 /* Top Navigation And Logo Design {
-    
+
 } */
 
 
 
 .main-nav
 {
-    
+
   background-color: #333;
   border-radius: 0 0 4px 4px;
 }
 .main-nav li
 
 {
-    
+
     display: inline-block;
     box-shadow:0 4px 8px 1px silver;
 }
@@ -48,7 +114,7 @@
 
 .main-nav li a
 {
-   
+
  display: block;
     padding: 0 8px;
     color: #fff;
@@ -67,12 +133,12 @@
 {
     background-color: #4CAF50;
   color: white;
-    
+
 }
 
 .main-nav li a:hover
 
-{ 
+{
     text-decoration : underline;
 }
 
