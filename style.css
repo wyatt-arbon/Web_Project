@@ -203,7 +203,7 @@ PLACEHOLDER END*/
 
 /*side nav*/
 nav{
-  width: 20%;
+  width: 15%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
