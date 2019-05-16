@@ -75,8 +75,11 @@ if the screen exceeds the size (mobile size) then the screen will change
     border: 0;
   }
   .side-nav-links{
-    display: flex;
-    flex-direction: column;
+    position: relative;
+    transform: translateX(0%);
+  }
+  .hamburger{
+    display: none;
   }
 }
 /* desktop query end */
@@ -231,9 +234,6 @@ nav{
   font-size: 14px;
 
 }
-.hamburger{
-  display: none;
-}
 .hamburger div{
   width: 25px;
   height: 3px;
@@ -253,7 +253,14 @@ nav{
     transform: translateX(-100%);
     transition: transform 0.5s ease-in;
 }
-
+.hamburger{
+  position: fixed;
+  display: block;
+  float: inherit;
+  background-color: #5D4954;
+  width: 35px;
+  height: 32px;
+}
 /* Footer nav css section */
 .footer {
   background-color: #333;
