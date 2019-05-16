@@ -222,6 +222,12 @@ nav{
   font-weight: bold;
   font-size: 14px;
 }
+.hamburger div{
+  width: 25px;
+  height: 3px;
+  background-color: rgb(247 247 247);
+  margin: 5px;
+}
 /* Footer nav css section */
 .footer {
   background-color: #333;
