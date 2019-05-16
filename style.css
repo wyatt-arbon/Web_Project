@@ -2,7 +2,6 @@ body{
   background-color: rgb(247 247 247);
   margin: 0;
 }
-
 h4{
   font-size: 1.1em;
 }
@@ -28,7 +27,7 @@ h4{
   margin: 5% auto;
 }
 
-.body iframe {
+.contentbody iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -38,95 +37,49 @@ h4{
 }
 /* YouTube end */
 
-/* desktop browser query
-if the screen exceeds the size (mobile size) then the screen will change
-*/
-@media screen and (min-width:767px){
-  .content{
-    width: 60%;
-    background-color: white;
-    border-radius: 4px;
-    box-shadow:0 4px 8px 1px silver;
-    transition: 0.2s;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
-  }
-  .contentheader{
-    padding: 1% 5%;
-    background-image: linear-gradient(to right, #052347 0%, #80c0df 100%);
-    border-radius: 4px 4px 0 0;
-    color: white;
-  }
-  .video {
-  	position: relative;
-    padding-bottom: 40%;
-  	height: 0;
-    width: 70%;
-    margin: 5% auto;
-  }
-
-  .body iframe {
-  	position: absolute;
-  	top: 0;
-  	left: 0;
-  	width: 100%;
-  	height: 100%;
-    border: 0;
-  }
-}
-/* desktop query end */
-
-.body{
-  padding: 2% 5%;
-}
-
 .card-container{
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  background-color: blue;
+  flex-direction: column;
 }
+
+
+.contentbody{
+  padding: 2% 5%;
+}
+
 
 /* PLACEHOLDER CARD STUFF
 general card styling */
 .card{
-  width: 30%;
+  width: 90%;
   float: left;
-  background-color: rgb(247 247 247);
+  background-color: white;
   border-radius: 5px;
   box-shadow:0 4px 8px 1px silver;
   transition: 0.2s;
-  color: black;
+  margin: 2% auto;
+}
+.card a{
   text-decoration: none;
-  margin: auto;
 }
 .card:hover{
-    box-shadow:0 8px 20px 0 silver;
+  box-shadow:0 8px 20px 0 silver;
 }
 /* general card styling end */
 
-/* all card link styling */
-.cardlinks:visited{
-  color: inherit;
-}
-.cardlinks:hover{
-  text-decoration: underline;
-}
-.cardlinks:active{
-  color: navy;
-}
-/* all card link styling end */
+
 
 /* card header styling */
-h3{
-  font-family: Arial, Cambria, Helvetica, sans-serif;
-  font-size: 1.2em;
-}
 .cardheader{
-  background-color: lightblue;
+  background-image: linear-gradient(to right, #3a0500 0%, #920000 100%);
   padding: 2% 3%;
   border-radius: 5px 5px 0 0;
+  color: white;
+}
+.cardheader h5{
+  font-size: 1.1em;
+  margin: 4%;
 }
 /* card header end */
 
@@ -135,7 +88,19 @@ h3{
   font-family: Calibri, Arial, Helvetica, sans-serif;
   font-size: 1.1em;
   padding: 2% 3%;
+  color: black;
 }
+.cardbody p{
+  margin: 5%;
+}
+/* all card link styling */
+.cardlinks:visited{
+  color: inherit;
+}
+.cardlinks:active{
+  color: navy;
+}
+/* all card link styling end */
 /* card body end
 PLACEHOLDER END*/
 
@@ -204,7 +169,7 @@ PLACEHOLDER END*/
 /* Footer nav css section */
 .footer {
   background-color: #333;
-  border-radius: 0 0 4px 4px;
+  margin-bottom: 0;
 }
 
 .footer a {
@@ -223,3 +188,62 @@ PLACEHOLDER END*/
   background-color: #4CAF50;
   color: white;
 }
+
+
+
+
+/* desktop browser query
+if the screen exceeds the size (mobile size) then the screen will change
+*/
+@media screen and (min-width:767px){
+  .content{
+    width: 60%;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow:0 4px 8px 1px silver;
+    transition: 0.2s;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+  }
+  .contentheader{
+    padding: 1% 5%;
+    background-image: linear-gradient(to right, #052347 0%, #80c0df 100%);
+    border-radius: 4px 4px 0 0;
+    color: white;
+  }
+  .video {
+  	position: relative;
+    padding-bottom: 40%;
+  	height: 0;
+    width: 70%;
+    margin: 5% auto;
+  }
+  .contentbody iframe {
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+    border: 0;
+  }
+  .card-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .card{
+    width: 40%;
+    float: left;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:0 4px 8px 1px silver;
+    transition: 0.2s;
+    margin: 2% auto;
+  }
+  .footer{
+    margin-bottom: 2%;
+    border-radius: 0 0 4px 4px;
+  }
+}
+/* desktop query end */
