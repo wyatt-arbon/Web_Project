@@ -120,7 +120,7 @@ PLACEHOLDER END*/
 .main-nav li
 
 {
-
+    margin: 10px;
     display: inline-block;
     box-shadow:0 4px 8px 1px silver;
 }
@@ -130,23 +130,34 @@ PLACEHOLDER END*/
 {
 
  display: block;
-    padding: 0 8px;
+    padding: 0 2px;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     letter-spacing: 0.1em;
-    line-height: 2em;
-    height: 2em;
-    font-size: 0.6em;
+    line-height: 3em;
+    height: 3em;
+    font-size: 0.67em;
     border-bottom: 1px solid #383838;
+    
 }
 
 
 .main-nav li.active a
 {
     background-color: #4CAF50;
-  color: white;
+    color: white;
+
+}   
+
+
+.main-nav li.btn a
+{
+    float: none;
+    background-color: #4CAF50;
+    color: white;
+    
 
 }
 
@@ -154,6 +165,7 @@ PLACEHOLDER END*/
 
 {
     text-decoration : underline;
+    
 }
 
 .logo  img
