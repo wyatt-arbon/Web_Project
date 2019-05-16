@@ -225,6 +225,9 @@ nav{
   font-weight: bold;
   font-size: 14px;
 }
+.hamburger{
+  display: none;
+}
 .hamburger div{
   width: 25px;
   height: 3px;
