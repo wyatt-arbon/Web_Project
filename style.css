@@ -102,13 +102,9 @@ general card styling */
 }
 /* all card link styling end */
 /* card body end
-PLACEHOLDER END*/
-
-/* Top Navigation And Logo Design {
-
-} */
 
 
+/* Top Navigation And Logo Design */
 
 .main-nav
 {
@@ -198,7 +194,7 @@ nav{
   text-decoration: none;
   letter-spacing: 2px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 0.9em;
 
 }
 .hamburger div{
@@ -210,9 +206,9 @@ nav{
   transition: all 0.5s ease;
 }
 .side-nav-links{
-    position: absolute;
+    position: fixed;
     left: 0px;
-    height: 100vh;
+    height: 100%;
     top: 54.63px;
     background-color: #8b0000;
     display: flex;
@@ -286,7 +282,8 @@ if the screen exceeds the size (mobile size) then the screen will change
     transition: 0.2s;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
+    margin: 1%;
+    display: inline-block;
   }
   .contentheader{
     padding: 1% 5%;
@@ -327,6 +324,8 @@ if the screen exceeds the size (mobile size) then the screen will change
     position: relative;
     transform: translateX(0%);
     width: 15%;
+    float: left;
+    display: inline-block;
   }
   .hamburger{
     display: none;
