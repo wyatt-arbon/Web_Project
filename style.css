@@ -177,10 +177,8 @@ general card styling */
 
 /*side nav*/
 nav{
-  width: 15%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #8b0000;
   margin-left: 2%;
@@ -208,8 +206,9 @@ nav{
 .side-nav-links{
     position: fixed;
     left: 0px;
-    height: 100%;
-    top: 54.63px;
+    height: 100vh;
+    top:0;
+    margin-top: 0;
     background-color: #8b0000;
     display: flex;
     flex-direction: column;
@@ -341,11 +340,11 @@ if the screen exceeds the size (mobile size) then the screen will change
   transform: translateX(0%);
 }
 .toggle .line1{
-  transform: rotate(-45deg) translate(-5px,6px);
+  transform: rotate(-45deg) translate(-5px,7px);
 }
 .toggle .line2{
   opacity: 0;
 }
 .toggle .line3{
-  transform: rotate(45deg) translate(-5px,-6px);
+  transform: rotate(45deg) translate(-5px,-7px);
 }
