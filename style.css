@@ -180,11 +180,15 @@ nav{
   display: flex;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: 2%;
   float: left;
+  width: 18%;
+  padding: 2%;
 }
 .side-nav-links li{
   list-style: none;
+}
+.side-nav-links li:hover{
+  background-color: #700000;
 }
 .side-nav-links a{
   color: rgb(247 247 247);
@@ -209,8 +213,6 @@ nav{
     position: fixed;
     left: 0px;
     height: 100vh;
-    top:0;
-    margin-top: 0;
     background-color: #8b0000;
     display: flex;
     flex-direction: column;
@@ -218,6 +220,7 @@ nav{
     transform: translateX(-100%);
     transition: transform 0.5s ease-in;
     z-index: 1;
+    margin:3%;
 }
 .hamburger{
   position: fixed;
@@ -327,6 +330,7 @@ if the screen exceeds the size (mobile size) then the screen will change
     width: 100%;
     float: left;
     display: inline-block;
+    padding:0;
   }
   .hamburger{
     display: none;
@@ -334,6 +338,9 @@ if the screen exceeds the size (mobile size) then the screen will change
   .footer{
     margin-bottom: 2%;
     border-radius: 0 0 4px 4px;
+  }
+  nav{
+    background-color: #8b0000;
   }
 }
 /* desktop query end */
