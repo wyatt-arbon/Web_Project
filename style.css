@@ -192,7 +192,10 @@ nav{
   letter-spacing: 2px;
   font-weight: bold;
   font-size: 0.9em;
-
+  padding: 1%;
+}
+.side-nav-links a:hover{
+  background-color: #700000;
 }
 .hamburger div{
   width: 25px;
