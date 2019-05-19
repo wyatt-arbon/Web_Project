@@ -212,6 +212,7 @@ nav{
 .side-nav-links{
     position: fixed;
     left: 0px;
+    top: 0px;
     height: 100vh;
     background-color: #8b0000;
     display: flex;
