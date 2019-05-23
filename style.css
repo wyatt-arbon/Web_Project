@@ -72,7 +72,7 @@ general card styling */
 
 /* card header styling */
 .cardheader{
-  background-image: linear-gradient(to right, #3a0500 0%, #920000 100%);
+  background-image: linear-gradient(to right, #052347 0%, #80c0df 100%);
   padding: 2% 3%;
   border-radius: 5px 5px 0 0;
   color: white;
