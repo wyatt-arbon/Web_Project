@@ -235,13 +235,16 @@ if the screen exceeds the size (mobile size) then the screen will change
     margin: 1%;
     display: inline-block;
   }
+      .main-nav{
+        display: block;
+    }
   .contentheader{
     padding: 1% 5%;
     background-image: linear-gradient(to right, #052347 0%, #80c0df 100%);
     border-radius: 4px 4px 0 0;
     color: white;
   }
- .main-nav
+.main-nav
 {
 
   background-color: #333;
@@ -290,7 +293,7 @@ if the screen exceeds the size (mobile size) then the screen will change
     float: left;
     margin-top: 0%;
     margin-left: 0%;
-}	
+}
   .video {
   	position: relative;
     padding-bottom: 40%;
