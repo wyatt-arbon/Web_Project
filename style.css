@@ -108,70 +108,15 @@ general card styling */
 
 .main-nav
 {
-  margin:0;
-  background-color: #333;
-  border-radius: 0 0 4px 4px;
-  min-height: 54.63px
-}
-.main-nav li
-
-{
-    margin: 10px;
-    display: inline-block;
-    box-shadow:0 4px 8px 1px silver;
-}
+	display :none;
+}	
 
 
-.main-nav li a
-{
-
- display: block;
-    padding: 0 2px;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    letter-spacing: 0.1em;
-    line-height: 3em;
-    height: 3em;
-    font-size: 0.67em;
-    border-bottom: 1px solid #383838;
-
-}
-
-
-.main-nav li.active a
-{
-    background-color:#0D5973;
-    color: white;
-
-}
-
-
-.main-nav li.btn a
-{
-
-    background-color:#0D5973;
-    color: white;
-
-
-}
-
-.main-nav li a:hover
-
-{
-    text-decoration : underline;
-
-}
 
 .logo  img
 
 {
-    width:100px;
-    height:auto;
-    float: left;
-    margin-top: 0%;
-    margin-left: 0%;
+    display:block;
 }
 
 
@@ -296,6 +241,56 @@ if the screen exceeds the size (mobile size) then the screen will change
     border-radius: 4px 4px 0 0;
     color: white;
   }
+ .main-nav
+{
+
+  background-color: #333;
+  border-radius: 0 0 4px 4px;
+  min-height: 54.63px;
+  font-family: Arial, Helvetica, sans-serif;    
+}
+    .main-nav li
+
+{
+    margin: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    display: inline-block;
+    }
+
+
+    .main-nav li a
+{
+
+    padding: 0 2px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    letter-spacing: 0.1em;
+    line-height: 3em;
+    height: 3em;
+    font-size: 0.67em;
+    border-bottom: 1px solid #383838;
+    
+}
+
+
+
+    .main-nav li a:hover
+
+{
+    text-decoration : underline;
+    
+}
+    .logo    img
+{
+    width:100px;
+    height:auto;
+    float: left;
+    margin-top: 0%;
+    margin-left: 0%;
+}	
   .video {
   	position: relative;
     padding-bottom: 40%;
