@@ -186,6 +186,7 @@ nav{
 
 .footer li {
     display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;    
 }
 .footer li a {
 
@@ -294,6 +295,7 @@ if the screen exceeds the size (mobile size) then the screen will change
     margin-top: 0%;
     margin-left: 0%;
 }
+ 
   .video {
   	position: relative;
     padding-bottom: 40%;
