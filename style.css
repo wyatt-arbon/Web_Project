@@ -116,7 +116,8 @@ general card styling */
 .logo  img
 
 {
-    display:block;
+    display:none;
+    
 }
 
 
@@ -289,6 +290,7 @@ if the screen exceeds the size (mobile size) then the screen will change
 }
     .logo    img
 {
+    display: block;
     width:100px;
     height:auto;
     float: left;
