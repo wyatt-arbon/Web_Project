@@ -3,7 +3,11 @@ body{
   margin: 0;
 }
 h4{
-  font-size: 1.1em;
+  font-size: 1em;
+  margin-bottom: 0;
+}
+h2{
+  font-size: 1.7em;
 }
 
 .content{
@@ -19,6 +23,14 @@ h4{
   color: white;
 }
 
+figure{
+  text-align: center;
+  margin: 5% auto;
+}
+
+ul{
+  margin:0;
+}
 /* YouTube embed */
 .video {
 	position: relative;
@@ -44,11 +56,16 @@ h4{
   flex-direction: column;
 }
 
-
 .contentbody{
   padding: 2% 5%;
+  padding-bottom: 10%;
 }
 
+.contentimage{
+  width: 55%;
+  margin: auto;
+  display: block;
+}
 
 /* PLACEHOLDER CARD STUFF
 general card styling */
@@ -106,21 +123,13 @@ general card styling */
 
 
 /* Top Navigation And Logo Design */
-
-.main-nav
-{
+.main-nav{
 	display :none;
 }
 
-
-
-.logo  img
-
-{
-    display:none;
-
+.logo  img{
+  display:none;
 }
-
 
 /*side nav*/
 nav{
@@ -134,22 +143,18 @@ nav{
 .side-nav-links li{
   list-style: none;
 }
-.side-nav-links li:hover{
-  background-color: #700000;
-}
 .side-nav-links a{
   color: rgb(247 247 247);
   text-decoration: none;
   letter-spacing: 2px;
-  font-weight: bold;
   font-size: 0.9em;
-  padding: 3.5%;
+  padding: 4%;
   width: 90%;
   display: block;
   border-bottom: solid 2px;
 }
 .side-nav-links a:hover{
-  background-color: #700000;
+  background-color: rgb(75,0,0);
 }
 .hamburger div{
   width: 25px;
@@ -172,7 +177,7 @@ nav{
     transition: transform 0.5s ease-in;
     z-index: 1;
     margin: 0;
-    padding: 10%;
+    padding: 7%;
     padding-top:2%;
     overflow-y: scroll;
 }
@@ -190,7 +195,10 @@ nav{
   margin-left: 5%;
   opacity: 0.7;
 }
-
+.sidenavactive{
+  background-color: #650000;
+  font-weight: bold;
+}
 
 /* Footer nav css section */
 .footer {
@@ -203,8 +211,7 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
 }
 .footer li a {
-
-     display: block;
+    display: block;
     padding: 0 2px;
     color: #fff;
     text-decoration: none;
@@ -232,9 +239,6 @@ nav{
   color: white;
 }
 
-
-
-
 /* desktop browser query
 if the screen exceeds the size (mobile size) then the screen will change
 */
@@ -250,36 +254,27 @@ if the screen exceeds the size (mobile size) then the screen will change
     margin: 1%;
     display: inline-block;
   }
-      .main-nav{
-        display: block;
-    }
   .contentheader{
     padding: 1% 5%;
     background-image: linear-gradient(to right, #052347 0%, #80c0df 100%);
     border-radius: 4px 4px 0 0;
     color: white;
   }
-.main-nav
-{
-
-  background-color: #333;
-  min-height: 54.63px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
-    .main-nav li
-
-{
+  .main-nav{
+    display: block;
+    background-color: #333;
+    min-height: 54.63px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  .main-nav li{
     margin: 10px;
     margin-right: 15px;
     margin-left: 15px;
     display: inline-block;
-    }
+  }
 
-
-    .main-nav li a
-{
-
+    .main-nav li a{
     padding: 0 2px;
     color: #fff;
     text-decoration: none;
@@ -290,8 +285,7 @@ if the screen exceeds the size (mobile size) then the screen will change
     height: 3em;
     font-size: 0.67em;
     border-bottom: 1px solid #383838;
-
-}
+  }
 
 
 
